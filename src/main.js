@@ -20,6 +20,7 @@ const router=new VueRouter({
 	    {name: 'Categories', path: '/explorer',components: Explorer},
 	    {name: 'ShoppingCart', path: '/cart',components: Cart},
 	    {name: 'Me', path: '/me',components: Me},
+	    {name: 'BookDetails', path: '/book/:id',components:BookDetails}
 	]
 })
 

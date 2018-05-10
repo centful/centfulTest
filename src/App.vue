@@ -3,7 +3,7 @@
     <div class="tabs">
       <ul>
         <li>
-          <router-link :to="{name: 'Home'}">
+          <router-link :to="{name: 'Home'}" tag="li">
             <div><img src="../assets/images/home.svg"></div>
             <div>首页</div>
           </router-link>
@@ -22,6 +22,12 @@
         </li>
         <li>
           <router-link :to="{name: 'Me'}">
+            <div><img src="../assets/images/me.svg"></div>
+            <div>我</div>
+          </router-link>
+        </li>
+        <li>
+          <router-link :to="{name: 'BookDetails', params: {id: 1}}">
             <div><img src="../assets/images/me.svg"></div>
             <div>我</div>
           </router-link>
